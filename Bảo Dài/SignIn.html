@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    
+    <title>SIGN IN & UP</title>
+
+    <style>
+        body, html 
+        {
+            background-color: black;
+            color: tomato;
+            margin: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img 
+        {
+            border: 10px solid #555555;
+        }
+
+        input
+        {
+            background-color: white;
+            width: 250px;
+            height: 30px;
+        }
+
+        button
+        {
+            background-color: tomato;
+            width: 250px;
+            height: 30px;
+        }
+
+        #Header
+        {
+            padding: 10px;
+            text-align: left;
+            background-color: tomato;
+            color: black;
+            /*margin-right: 100%;
+            text-align: left;*/
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="Header">
+        <h1>GeiHub PREMIUM</h1>
+    </div>
+
+    <div style="display: flex; flex-direction: row;">
+        <div style="width: 400px;">
+            <h1>Signing up your own GeiHub account.</h1>
+
+            <img src="./GeiHub.jpeg" alt="GeiHub" width="300px" height="250px">
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+
+            <label for="username"> <h3>Your EMAIL</h3> </label>
+            <input type="text" placeholder="Email address" name="username" required>
+
+            <label for="username"> <h3>USERNAME</h3> </label>
+            <input type="text" placeholder="Pls enter your Username" name="username" required>
+
+            <label for="password"> <h3>PASSWORD</h3> </label>
+            <input type="password" placeholder="Pls enter your Password" name="password" required>
+
+            <label for="password"> <h3>RE-ENTER PASSWORD</h3> </label>
+            <input type="password" placeholder="Pls re-enter your Password" name="password" required>
+
+            <br><button type="submit">Sign up!</button>
+
+        </div>
+    </div>
+
+</body>
+</html>
